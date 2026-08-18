@@ -1,0 +1,8 @@
+node_modules/
+playwright-report/
+test-results/
+blob-report/
+graphify-out/
+.env
+.DS_Store
+*.log

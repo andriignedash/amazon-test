@@ -1,0 +1,28 @@
+{
+  "name": "amazon-playwright-product-search",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Amazon product search and cart validation with Playwright, TypeScript, and POM",
+  "scripts": {
+    "test": "playwright test tests/search-products.spec.ts",
+    "test:search": "playwright test tests/search-products.spec.ts",
+    "test:cart": "playwright test tests/add-to-cart.spec.ts",
+    "test:all": "playwright test",
+    "test:unit": "playwright test tests/unit",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "amazon",
+    "playwright",
+    "typescript",
+    "page-object-model",
+    "qa-automation"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@types/node": "26.2.0",
+    "typescript": "7.0.2"
+  }
+}
